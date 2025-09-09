@@ -1,0 +1,330 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border-box: box-sizing;
+}
+
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+
+
+
+header {
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+h1 {
+    
+    color: #000080;
+    text-align: center;
+    
+}
+
+
+
+.caption {
+    
+    text-align: center;
+    margin-bottom: 50px;
+    width: 350px;
+    
+}
+
+
+.amazing {
+    
+    color: red;
+   
+}
+
+.dry {
+    
+    background-color: gold;
+    color: red;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+
+article {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.description {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    text-align: justify;
+    text-overflow: none;
+    line-height: 30px;
+    font-size: 20px;
+    color: navy;
+    
+}
+
+
+.how-to {
+    
+    color: maroon;
+    font-weight: 700;
+}
+
+
+.in-text-color {
+    color: maroon;
+    font-weight: 500;
+}
+
+
+
+.chart {
+    
+    width: 500px;
+}
+
+
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.testimonial {
+    
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    color: gold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 8px;
+}
+
+
+.testifiers {
+
+     border-radius: 5px;
+   
+}
+
+
+.testimonial-one, .testimonial-two {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    width: 300px;
+    margin-top: 40px;
+    
+}
+
+
+
+.testimonial-text {
+    
+    color: 2F4F4F;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: -2px;
+    
+}
+
+.name {
+
+
+    display: block;
+    text-align: right;
+    color: navy;
+    
+    
+}
+
+
+.discount {
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: red;
+    margin-top: 70px;
+}
+
+.call-to-action {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+  
+}
+
+
+
+
+.price {
+    
+    font-size: 30px;
+    color: green;
+    
+   
+}
+
+.old-price {
+    color: lightslategray;
+    text-decoration: line-through;
+    margin-right: 20px;
+}
+
+.naira {
+    
+   text-decoration: line-through;
+}
+
+
+.buy-button {
+    
+    background-color: navy;
+    font-size: 18px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+
+.buy-button:hover {
+    
+    opacity: 0.7;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: navy;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    
+}
+
+
+.whatsapp-logo {
+    cursor: pointer;
+}
+
+
+
+footer {
+    
+    font-size: 16px;
+    color: navy;
+}
+
+
+
+@media(max-width: 480px){
+       
+    
+   h1 {
+    
+    color: #000080;
+    text-align: center;
+    width: 330px;
+    
+}
+ 
+
+.description {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 330px;
+    text-align: justify;
+    text-overflow: none;
+    line-height: 30px;
+    font-size: 20px;
+    color: navy;
+}
+    
+    
+ .chart {
+    
+    width: 330px;
+    height: 200px;
+}
+    
+    
+    
+    
+ .call-to-action {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+  
+}
+ 
+    
+    
+    
+.whatsapp-logo {
+    margin-top: 30px;
+}
+    
+    
+    
+}
+    

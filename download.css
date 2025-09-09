@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-box: box-sizing;
+}
+
+
+
+/*body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+
+main {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.download-button {
+    
+    background-color: navy;
+    font-size: 18px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.15s;
+    margin-top: 70px;
+}
+
+
+.download-button:hover {
+    
+    opacity: 07;
+    
+}
+
+
+
+.note {
+    font-size: 18px;
+    color: navy;
+    font-weight: 500;
+    text-align: center;
+    width: 300px;
+}
+
+
+.failed-download {
+    
+    font-size: 18px;
+    color: maroon;
+    font-weight: 500;
+    text-align: center;
+    width: 300px;
+    
+}
+
+
+.whatsapp-logo {
+    
+    margin-bottom: 100px;
+}
+
+
+
+footer {
+    margin-bottom: 10px;
+}
