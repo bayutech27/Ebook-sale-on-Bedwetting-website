@@ -29,6 +29,10 @@ body {
 
 header {
     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -39,6 +43,7 @@ h1 {
     
     color: #000080;
     text-align: center;
+    margin-bottom: 20px;
     
 }
 
@@ -90,7 +95,7 @@ article {
     justify-content: space-around;
     align-items: center;
     width: 500px;
-    text-align: justify;
+    text-align: left;
     text-overflow: none;
     line-height: 30px;
     font-size: 20px;
@@ -121,8 +126,8 @@ article {
 
 
 p {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -280,6 +285,7 @@ footer {
     width: 330px;
     
 }
+    
  
 
 .description {
@@ -323,6 +329,54 @@ footer {
 .whatsapp-logo {
     margin-top: 30px;
 }
+    
+    
+    
+}
+
+
+@media(max-width: 320px) {
+    
+    h1 {
+    
+    color: #000080;
+    text-align: center;
+    width: 300px;
+    
+}
+ 
+
+.caption {
+    
+    text-align: center;
+    margin-bottom: 50px;
+    width: 300px;
+    
+
+}
+
+
+.description {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 280px;
+    text-align: justify;
+    text-overflow: none;
+    line-height: 30px;
+    font-size: 20px;
+    color: navy;
+}
+    
+        
+ .chart {
+    
+    width: 300px;
+    height: 200px;
+}
+    
     
     
     
